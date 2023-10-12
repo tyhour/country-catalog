@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+  padding: 1rem 4rem;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrap-country {
+  width: 100%;
+  max-width: 82rem;
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.wrap-search {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rs-table-row-header {
+  font-size: 14px !important; /* Adjust the font size to your preference */
+}
+
+.flags {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+.flags-detail {
+  display: flex;
+  place-items: center;
+  margin-top: 4px;
+}
+
+.overflow-x {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
